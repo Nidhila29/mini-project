@@ -1,0 +1,187 @@
+body{
+    background:#22C1C3;
+    background: linear-gradient(0deg,rgba(34,193,195,1)0%,rgba(253,187,45,1)100%); 
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    
+} 
+.app-container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    display: none;
+}
+
+.sidebar{
+    background-color:#709a35;
+    opacity: 80%;
+    width:340px;
+    height: 100vh;
+    margin-right: 0.5rem;
+}
+
+.main{
+    
+    flex:1;
+    background:#22C1C3;
+    background: linear-gradient(0deg,rgba(34,193,195,1)0%,rgba(253,187,45,1)100%);
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+    
+}
+.inpBtnCard{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 20%;
+}
+.card-img-top{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    
+}
+.card1,.card2{
+    width: 500px;
+    background: #A8E6CF;
+    color: #333333;
+    height: 100vh;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card-title,.card-title2,.card-main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inpTodo{
+    height: 30px;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 2px solid #FFC200;
+}
+.start,.pause,.reset,.todoBtn{
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #FFC200;
+    color: #333333;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.timer{
+    margin-left: 45%;
+    color: green;
+}
+.start:hover,.pause:hover,.reset:hover,.todoBtn:hover{
+    opacity:70%;
+    height: 43px;
+    width: 93px;
+}
+.Daily-msg{
+    height: 250px;
+    width: 300px;
+    background-color: #A8E6CF;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: black;
+}
+.Daily-msg h2{
+    text-align: center;
+}
+
+
+.fa-bars,.fa-xmark,.fa-moon{
+    font-size: 25px;
+    color: white;
+    margin-left: 90%;
+    
+}
+.fa-bars:hover,.fa-xmark:hover,.fa-moon:hover{
+    opacity: 150%;
+    font-size: 27px;
+}
+
+.start,.pause,.reset{
+    margin-left: 50px;
+
+}
+
+.delbtn,.delete{
+    height: 25px;
+    width: 50px;
+    background-color: #FFC200;
+    color: #333333;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.delbtn:hover,.delete:hover{
+    opacity:80%;
+}
+.fa-bars{
+    margin-left: -20px;
+}
+
+.sidebar.show{
+    display:block;
+    
+}
+.fa-bars.show{
+    display: block;
+
+}
+.fa-bars.hide{
+    display: none;
+}
+.fa-moon{
+    margin-left: 10px;
+}
+.main.dark,.sidebar.dark,.card1.dark,.card2.dark,button.dark{
+    background: black;
+    color: white;
+}
+button.dark{
+    border: 2px solid white;
+}
+.quote{
+    font-size: 18px;
+}
+
+.author{
+    color:black;
+    font-size: 15px;
+}
+.sideH2{
+    margin-left:75px;
+}
+
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PomDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</head>
+<body>
+      <div class="app-container">
+        <div class="sidebar">
+            <i class="fa-solid fa-xmark"></i>
+            
+            <div class="sideCards"></div>
+
+              <div class="Daily-msg">
+                <h2>Your Quote Today</h2>
+                <p class="quote"></p>
+                 <p class="author"></p>
+
+              </div>
+              <h3 class="sideH2"> &hearts;Happy Learning &hearts; </h3>
+              
+              
+              
+            </div>
+            
+
+        </div>
+        
+        
+        <div class="main">
+          <div class="main-icons">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-moon"></i>
+          </div>
+            <div class="cards">
+             <div class="card1">
+                <img src="todoimg.jpg" class="card-img-top" alt="stdimg">
+                <div class="card-body">
+                   <h2 class="card-title">Your Pomodoro</h2>
+                   <h1 class="timer">25:00</h1>
+                  <div class="timer-control">
+                    <button class="start">Start</button>
+                    <button class="pause">Pause</button>
+                    <button class="reset">Reset</button>
+                  </div>
+                   
+                   
+                </div>
+             </div>
+             <div class="card2">
+                <img src="booksimg.jpg" class="card-img-top" alt="stdimg">
+                <div class="card-body2">
+                  <h2 class="card-main-title">Todo Tasks Today &#128512;</h2>
+                   <h3 class="card-title2">Enter the tasks</h3>
+                   <div class="Todo">
+                    <input class="inpTodo" type="text"placeholder="Enter the task">
+                    <button class="todoBtn">Add Task</button>
+                    <ul>
+                        <li  class="todoList">
+                          <span>Wake Up</span>
+                          <button class="delbtn">Delete</button></li>
+                        <li  class="todoList">
+                          <span>Eat</span> 
+                          <button class="delbtn">Delete</button></li>
+                    </ul>
+                   </div>
+                   
+                   
+                </div>
+             </div>
+            </div>
+            
+        </div>
+      </div>      
+        
+        
+
+    
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="side.js"></script>
+</body>
+</html>
